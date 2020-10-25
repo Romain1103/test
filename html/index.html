@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Maquette</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <img src="../asset/integration-design-and-assets/Logo.png" alt="logo">
+                <ul>
+                    <li>
+                        <a href="#" class="test">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#">Magazine</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right-nav">
+                <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+                <a href="#">Login</a>
+                <img src="../asset/integration-design-and-assets/burger.webp" alt="burger" class="burger-img">
+            </div>
+        </nav>
+    </header>
+
+    <section id="search">
+        <div class="search-container"> 
+            <div class="loupe-container">
+                <img src="../asset/integration-design-and-assets/Search.png" alt="loupe">
+                <input type="text" placeholder="living room">
+            </div>
+            <div class="right-wrapper">
+                <div class="algolia-container">
+                    <p>Powered by Algolia</p>
+                    <img src="../asset/integration-design-and-assets/Sajari Logo.png" alt="boulon">
+                </div>
+    
+                <div id="dropdown">
+                    <select name="best_match" id="select_best_match" class="element">
+                        <option value="">Best match</option>
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">Lorem</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards-block">
+        <div class="first-row">
+            <div class="card-select">
+                <p class="first-p">FILTRED BY</p>
+                <div class="select-wrapper">
+                    <select name="best_match" id="select_collection">
+                        <option value="">Collection</option>
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">Lorem</option>
+                    </select>
+                    <select name="best_match" id="select_color">
+                        <option value="">Color</option>
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">Lorem</option>
+                    </select>
+                    <select name="best_match" id="select_category">
+                        <option value="">Category</option>
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">Lorem</option>
+                    </select>
+                </div>
+    
+                <div class="card-select-bottom">
+                    <p>Price Range</p>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <div class="price-range">
+                            <p>$0</p>
+                            <p>$10,000+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="cards card-product-1 ">
+                <img src="../asset/integration-design-and-assets/produit4.jpg" alt="room">
+                <div class="name-price">
+                    <p>Coombes</p>
+                    <p>$2,600</p>
+                </div>
+                <p class="category-product">LOUNGE</p>
+    
+                <div  class="stars-logo">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+                </div>
+            </div>
+    
+            <div class="cards card-product-2">
+                <img src="../asset/integration-design-and-assets/produit4.jpg" alt="">
+                <div class="name-price">
+                    <p>Keeve Set</p>
+                    <p>$590</p>
+                </div>
+                <p class="category-product">TABLE AND CHAIRS</p>
+    
+                <div  class="stars-logo">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+                </div>
+            </div>
+    
+            <div class="cards card-product-3">
+                <img src="../asset/integration-design-and-assets/produit4.jpg" alt="">
+                <div class="name-price">
+                    <p>Niliè</p>
+                    <p>$950</p>
+                </div>
+                <p class="category-product">ARMCHAIR</p>
+    
+                <div  class="stars-logo">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="second-row">
+        <div class="cards card-product-4">
+            <img src="../asset/integration-design-and-assets/produit4.jpg" alt="">
+            <div class="name-price">
+                <p>Blanko</p>
+                <p>$90</p>
+            </div>
+            <p class="category-product">SIDE TABLE</p>
+
+            <div  class="stars-logo">
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+            </div>
+        </div>
+
+        <div class="cards card-product-5">
+            <img src="../asset/integration-design-and-assets/produit4.jpg" alt="">
+            <div class="name-price">
+                <p>Momo</p>
+                <p>$890</p>
+            </div>
+            <p class="category-product">SHELVES</p>
+
+            <div  class="stars-logo">
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+            </div>
+        </div>
+
+        <div class="cards card-product-6">
+            <img src="../asset/integration-design-and-assets/produit4.jpg" alt="">
+            <div class="name-price">
+                <p>Penemillè</p>
+                <p>$120</p>
+            </div>
+            <p class="category-product">CHAIR</p>
+
+            <div class="stars-logo">
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+            </div>
+        </div>
+
+        <div class="cards card-product-7">
+            <img src="../asset/integration-design-and-assets/produit4.jpg" alt="">
+            <div class="name-price">
+                <p>Kappu</p>
+                <p>$420</p>
+            </div>
+            <p class="category-product">SHELVES</p>
+
+            <div class="stars-logo">
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="../asset/integration-design-and-assets/cart.png" alt="panier">
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <footer>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item"><a class="page-link" href="#">7</a></li>
+              <li class="page-item"><a class="page-link" href="#">8</a></li>
+              <li class="page-item"><a class="page-link" href="#">9</a></li>
+              <li class="page-item"><a class="page-link" href="#">10</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </footer>
+</body>
+
+</html>
